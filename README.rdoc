@@ -1,6 +1,6 @@
 = git-tagging
 
-Adds a tag to the repository being deploy (with Capistrano) with the format: `#{stage}-week#{Date.today.cweek-1}.#{release_timestamp}`
+Adds a tag to the repository being deploy (with Capistrano) with the format: ´#{stage}-week#{Date.today.cweek-1}.#{release_timestamp}´
 
 == Instructions
 
