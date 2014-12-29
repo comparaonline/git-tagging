@@ -24,7 +24,7 @@ In your deploy.rb add
 after 'deploy:restart', 'git:push_deploy_tag'
 ```
 
-And add the git role to all stages you want git tags to be creted
+And add the git role to all stages you want git tags to be created
 
 Developing
 ----------
