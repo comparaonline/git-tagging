@@ -1,6 +1,10 @@
 = git-tagging
 
-Description goes here.
+Adds a tag to the repository being deploy (with Capistrano) with the format: `#{stage}-week#{Date.today.cweek-1}.#{release_timestamp}`
+
+== Developing
+
+This project was made using the Jeweler (https://https://github.com/technicalpickles/jeweler) Gem.
 
 == Contributing to git-tagging
  
