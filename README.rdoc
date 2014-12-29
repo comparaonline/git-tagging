@@ -2,6 +2,28 @@
 
 Adds a tag to the repository being deploy (with Capistrano) with the format: `#{stage}-week#{Date.today.cweek-1}.#{release_timestamp}`
 
+== Instructions
+
+Add the gem to your Gemfile:
+
+```
+gem 'git-tagging'
+```
+
+In your Capfile add
+
+```
+require 'capistrano/git-tagging'
+```
+
+In your deploy.rb add
+
+```
+after 'deploy:restart', 'git:push_deploy_tag'
+```
+
+And add the git role to all stages you want git tags to be creted
+
 == Developing
 
 This project was made using the Jeweler (https://https://github.com/technicalpickles/jeweler) Gem.
