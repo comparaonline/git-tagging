@@ -19,8 +19,8 @@ Jeweler::Tasks.new do |gem|
   gem.license = "MIT"
   gem.summary = 'Add Git Tags when deploying using Capistrano'
   gem.description = 'Add Git Tags using a default format when deploying to any stage using Capistrano'
-  gem.email = "mlavandero@comparaonline.com"
-  gem.authors = ["Mario Lavandero"]
+  gem.email = "plataforma@comparaonline.com"
+  gem.authors = ["Mario Lavandero", "Cristobal Castillo"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
